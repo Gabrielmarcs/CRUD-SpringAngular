@@ -18,7 +18,7 @@ Este repositório contém a implementação do backend de uma aplicação Spring
 ## Começando
 
 1. **Clonar o Repositório:**
-
+   
    ```bash
    git clone https://github.com/your-username/your-project.git
    cd your-project
@@ -31,10 +31,10 @@ Este repositório contém a implementação do backend de uma aplicação Spring
 3. **Construir e Executar:**
 
 Você pode usar o Maven para construir e executar a aplicação.
-
-    ```bash
-    mvn spring-boot:run
-    A aplicação será iniciada em http://localhost:8080.
+   ```bash       
+   mvn spring-boot:run
+   A aplicação será iniciada em http://localhost:8080.
+   ```
 
 ## Endpoints da API
 
