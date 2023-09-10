@@ -1,5 +1,6 @@
 package br.com.projeto.api.modelo;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -17,6 +18,7 @@ public class Cliente {
     private long codigo;
     private String nome;
     private int idade;
+    @Column(unique = true)
     private String email;
     private String cidade;
 
